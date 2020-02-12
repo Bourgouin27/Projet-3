@@ -1,0 +1,22 @@
+h1
+{
+	text-align: center;
+}
+.menu
+{
+	display: flex;
+	align-content:  stretch;
+	text-align: center;
+	justify-content: center;
+}
+
+.btn_pro
+{
+	display: flex;
+	justify-content: center;
+}
+.footer
+{
+	display: flex;
+	justify-content: space-between;
+}

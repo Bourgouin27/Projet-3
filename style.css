@@ -38,6 +38,7 @@
 body
 {
 	margin: 0px;
+	display: table;
 }
 header
 {
@@ -93,7 +94,7 @@ img
 	font-size: 3.2em;
 	color: rgb(253, 203, 70);
 	background-color: rgb(87, 156, 135);
-	padding: 15px;/*
+	padding: 15px;/* 
 	position: absolute;
 	bottom: 0;
 	left: 0;

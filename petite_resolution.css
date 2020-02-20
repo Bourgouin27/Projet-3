@@ -5,4 +5,22 @@
 		display: flex;
 		flex-direction: column;
 	}
+	img
+	{
+		width: 85%;
+		height: 85%;
+	}
+	header, footer
+	{
+  		font-size: 1.5vw;
+	}
+	.pro
+	{
+		font-size: 7vw;
+	}
+	section .btn_pro
+	{
+		width: 55%;
+	}
+	
 }

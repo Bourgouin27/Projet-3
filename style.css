@@ -94,7 +94,8 @@ img
 	margin: auto;
 	margin-top: 2em;
 	margin-bottom: 3em;
-	width: 10em;
+	width: 55%;
+	max-width: 10em;
 	padding: 10px;
 	border-radius: 15px;
 }

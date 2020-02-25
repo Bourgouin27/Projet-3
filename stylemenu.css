@@ -48,7 +48,7 @@ h1
 {	
 	text-align: center;
 	font-family: 'metropolissemi_bold';
-	letter-spacing: -7px;
+	letter-spacing: -0.1em;
 	font-size: 5.9em;
 	color: rgb(253, 203, 70);
 	margin-top: 0px;
@@ -75,13 +75,13 @@ a
 	margin-bottom: 9em;
 	
 }
-.footer
+footer
 {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
 	font-family: 'metropolisregular';
-	font-size: 1.5vw;
+	font-size: 3vw;
 	color: rgb(253, 203, 70);
 	background-color: rgb(87, 156, 135);
 	padding: 15px;
@@ -90,7 +90,18 @@ a
 	left: 0;
 	right: 0;
 }
-
+.wiggle:hover
+{
+	animation: shake 3s infinite;
+}
+@-webkit-keyframes shake{
+	0%{-webkit-transform: rotate(0deg)}
+	3%{-webkit-transform: rotate(-2deg)}
+	4%{-webkit-transform: rotate(2deg)}
+	5%{-webkit-transform: rotate(-2deg)}
+	6%{-webkit-transform: rotate(0deg)}
+	100%{-webkit-transform: rotate(0deg)}
+}
 article
 {	
 	display: flex;

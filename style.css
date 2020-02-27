@@ -83,12 +83,6 @@ img
 	overflow: hidden;
 	box-shadow: 0px 0px 15px rgb(221, 221, 221);
 }
-.carte_b
-{
-	display: flex;
-	justify-content: center;
-	margin-bottom: 9em;
-}
 .image
 {
 	float: left;
@@ -136,24 +130,22 @@ footer
 {
 	animation: shake 3s infinite;
 }
-@-webkit-keyframes shake{
-	0%{-webkit-transform: rotate(0deg)}
-	3%{-webkit-transform: rotate(-2deg)}
-	4%{-webkit-transform: rotate(2deg)}
-	5%{-webkit-transform: rotate(-2deg)}
-	6%{-webkit-transform: rotate(0deg)}
-	100%{-webkit-transform: rotate(0deg)}
+@keyframes shake{
+	0%{transform: rotate(0deg)}
+	3%{transform: rotate(-2deg)}
+	4%{transform: rotate(2deg)}
+	5%{transform: rotate(-2deg)}
+	6%{transform: rotate(0deg)}
+	100%{transform: rotate(0deg)}
 }
 .fa, .fab, .fad, .fal, .far, .fas
 {
-	margin-right: 30px;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
-    color: rgb(244,67,54);
+    color:rgb(244,67,54);
     font-size: 1.4em;
+	width: 0.2em;
+	height: 0.2em;
+	display: inline-block;
+	z-index: 1;
 }
 article
 {	

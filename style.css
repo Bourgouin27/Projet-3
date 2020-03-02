@@ -140,13 +140,35 @@ footer
 }
 .fa, .fab, .fad, .fal, .far, .fas
 {
-    color:rgb(244,67,54);
-    font-size: 1.4em;
-	width: 0.2em;
-	height: 0.2em;
+    font-size: 0.3em;
 	display: inline-block;
-	z-index: 1;
+	margin-right: 0.2em;
+	margin-left: 0.2em;
+	color: 	rgb(253, 203, 70);
+	
 }
+
+.dot_1, .dot_2, .dot_3{
+	display: inline-flex;
+}
+.dot_1{
+	animation: transition 2200ms ease-in-out infinite;
+}
+.dot_2{
+	animation: transition 2200ms ease-in-out 250ms infinite;
+}
+.dot_3{
+	animation: transition 2200ms ease-in-out 500ms infinite;
+}
+
+@keyframes transition{
+	0%{transform: translateY(0%);}
+	30%{transform: translateY(0%);}
+	50%{transform: translateY(-50%);}
+	70%{transform: translateY(0%);}
+	100%{transform: translateY(0%);}
+}
+
 article
 {	
 	display: flex;
@@ -164,4 +186,9 @@ article
 	margin:0;
 	width: 100%;
 	text-align: center;
+
+}
+.pro_div
+{
+	display: block;
 }

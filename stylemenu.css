@@ -60,6 +60,7 @@ img
 	position: relative;
 	margin : auto;
 	box-shadow: 0px 0px 15px rgb(221, 221, 221);
+	width: 85%;
 
 }
 a
@@ -81,28 +82,40 @@ a
 	position: absolute;
 	height: 40px;
 	margin-top: 24.5%;
+
 }
-.underline_1:hover{
-		transform-origin: 0%;
+.underline_1b:hover{
+		transform-origin:left 100%;
 		border-bottom: 4px solid rgb(87, 156, 135);
 		transition: all 200ms cubic-bezier(0,-0.41,1,1.47); 
 }
 .underline_2{
-	width: 19%;
+	width: 100%;
+	background-color: rgb(87, 156, 135);
+	border-radius: 5px;
+	position: absolute;
+	height: 6px;
+	margin-top: 15%;
+	transform-origin: 0% 50%;
+	transform: scale(0);
+}
+.underline_2b{
+	width: 20%;
 	position: absolute;
 	height: 40px;
-	margin-top: 53.5%;
+	margin-top: 55%;
+
 }
-.underline_2:hover{
-		transform-origin: left 97%;
-		border-bottom: 4px solid rgb(87, 156, 135);
-		transition: all 200ms cubic-bezier(0,-0.41,1,1.47); 
+.underline_2b:hover .underline_2{
+		
+		transform: scale(1);
+		transition: all 800ms cubic-bezier(.42,.97,.8,1); 
 }
 .underline_3{
 	width: 23%;
 	position: absolute;
 	height: 40px;
-	margin-top: 77%;
+	margin-top: 79%;
 }
 .underline_3:hover{
 		transform-origin: left 97%;

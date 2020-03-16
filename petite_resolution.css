@@ -25,7 +25,8 @@ header
 }
 .carte
 {
-	width: 60%;
+	width: 400px;
+	height: 566.1px;
 }
 .pro
 {
@@ -33,5 +34,9 @@ header
 	min-width: 380px;
 }
 	
+
+}
+@media screen and (max-width: 768px)
+{
 
 }

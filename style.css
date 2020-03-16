@@ -1,5 +1,25 @@
 
 	/* Fonts */
+@font-face {
+	src: url(fonts/Devonshire-Regular.ttf);
+	font-family: 'Devonshire';
+}
+@font-face {
+	src: url(fonts/DancingScript-VariableFont_wght.ttf);
+	font-family: 'DancingScript';
+}
+@font-face {
+	src: url(fonts/CroissantOne-Regular.ttf);
+	font-family: 'CroissantOne';
+}
+@font-face {
+	src: url(fonts/Kalam-Regular.ttf);
+	font-family: 'Kalam';
+}
+@font-face {
+	src: url(fonts/Kalam-Light.ttf);
+	font-family: 'Kalam-Light';
+}
 
 @font-face {
     font-family: 'metropolisregular';
@@ -62,15 +82,6 @@ a
 	display: inline-block
 	
 }
-img
-{
-	position: relative;
-	width: 100%;
-	margin-bottom: 0px;
-	vertical-align: middle;
-	
-
-}
 #menu
 {
 	display: flex;
@@ -82,16 +93,113 @@ img
 .carte{
 	overflow: hidden;
 	box-shadow: 0px 0px 15px rgb(221, 221, 221);
+	width:500px;
+	height:707.6px;
+	margin: 2em;
+	margin-bottom: 10em; 
+	position: relative;
 }
-.image
+.zoom
 {
 	float: left;
 	transform: scale(1);
 	transition: transform 400ms, opacity 400ms 150ms;
+	margin: auto;
+	font-size: 150%;
+	line-height: 50px;
 }
-.image:hover{
+.zoom:hover{
 	transform: scale(1.15);
 	opacity: 0.75;
+}
+.zoom i
+{
+	font-size: 3em;
+	background: linear-gradient(to right, rgb(241,84,96) 0%,rgb(247,143,106) 100%);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+.menu1
+{
+	background-color: rgb(252,223,219);
+	color: rgb(60,18,24);
+
+}
+.menu1 p
+{
+	font-family: 'Devonshire';
+	font-size: 2em;
+}
+.menu1 h2
+{
+	font-family: 'Kalam-Light';
+	font-size: 2.5em;
+}
+.menu2
+{
+	background-color: #FFF5FE;
+}
+
+.menu2 h2
+{
+	color: rgb(199,119,18);
+	font-size: 2em;
+}
+.menu2 p
+{
+	font-family: 'CroissantOne';
+	font-size: 1.5em;
+	background: linear-gradient(to right, rgb(216,133,46) 0%,rgb(144,91,253) 100%);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+.menu3
+{
+	background-color: #F9F9F9;
+}
+.menu2 p
+{
+	font-family: 'CroissantOne';
+	font-size: 1.5em;
+	background: linear-gradient(to right, rgb(216,133,46) 0%,rgb(144,91,253) 100%);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+.menu3
+{
+	background-color: #F9F9F9;
+}
+.menu3 h2
+{
+	color: #0887FB;
+	font-size: 2em;
+	font-family: 'Kalam-Light';
+}
+.menu3 p
+{
+	font-family: 'DancingScript';
+	font-size: 2em;
+	background: linear-gradient(135deg, rgb(9,51,223) 0%,rgb(47,154,250) 100%);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+.menu4
+{
+	background-color: #FDFFFD;
+}
+.menu4 h2
+{
+	color: #72BF56;
+	font-size: 2em;
+	font-family: 'Kalam-Light';
+}
+.menu4 p
+{
+	font-family:'KaushanScript';
+	font-size: 2em;
+	background: linear-gradient(135deg, rgb(62,147,57) 0%,rgb(191,254,127) 100%);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
 }
 .btn_pro
 {
@@ -173,7 +281,7 @@ article
 {	
 	display: flex;
 	flex-direction: column-reverse;
-	width: 40%;
+	width: 40%;;
 	margin-bottom: 6em;
 }
 .block

@@ -1,0 +1,112 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'metropolisregular';
+    src: url('fonts/metropolis-regular-webfont.woff2') format('woff2'),
+         url('fonts/metropolis-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'metropolismedium';
+    src: url('fonts/metropolis-medium-webfont.woff2') format('woff2'),
+         url('fonts/metropolis-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'metropolisbold';
+    src: url('fonts/metropolis-bold-webfont.woff2') format('woff2'),
+         url('fonts/metropolis-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'metropolissemi_bold';
+    src: url('fonts/metropolis-semibold-webfont.woff2') format('woff2'),
+         url('fonts/metropolis-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* Fonts */
+body
+{
+	position: relative;
+	margin: 0px;
+}
+header
+{
+	background-color: rgb(87, 156, 135);
+}
+h1
+{	
+	text-align: center;
+	font-family: 'metropolissemi_bold';
+	letter-spacing: -0.1em;
+	font-size: 5.9em;
+	color: rgb(253, 203, 70);
+	margin-top: 0px;
+	padding: 0.6em;
+
+}
+a
+{
+    text-decoration: none;
+    color: inherit;
+    display: inline-block
+}
+.carte_b
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 9em;
+    position: relative;
+    
+    
+}
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-family: 'metropolisregular';
+    font-size: 3vw;
+    color: rgb(253, 203, 70);
+    background-color: rgb(87, 156, 135);
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+article
+{   
+    display: flex;
+    flex-direction: column-reverse;
+}
+.block
+{
+    padding: 2em;
+}
+
+
+
+/* animation */
+
+.wiggle:hover
+{
+    animation: shake 3s infinite;
+}
+@keyframes shake{
+    0%{transform: rotate(0deg)}
+    3%{transform: rotate(-2deg)}
+    4%{transform: rotate(2deg)}
+    5%{transform: rotate(-2deg)}
+    6%{transform: rotate(0deg)}
+    100%{transform: rotate(0deg)}
+}

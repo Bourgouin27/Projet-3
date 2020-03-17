@@ -1,4 +1,35 @@
 /* Fonts */
+@font-face {
+    src: url(fonts/Devonshire-Regular.ttf);
+    font-family: 'Devonshire';
+}
+@font-face {
+    src: url(fonts/Gelasio-Regular.ttf);
+    font-family: 'Gelasio';
+}@font-face {
+    src: url(fonts/Gelasio-SemiBold.ttf);
+    font-family: 'Gelasio-SemiBold';
+}
+@font-face {
+    src: url(fonts/KaushanScript-Regular.ttf);
+    font-family: 'KaushanScript';
+}
+@font-face {
+    src: url(fonts/DancingScript-VariableFont_wght.ttf);
+    font-family: 'DancingScript';
+}
+@font-face {
+    src: url(fonts/CroissantOne-Regular.ttf);
+    font-family: 'CroissantOne';
+}
+@font-face {
+    src: url(fonts/Kalam-Regular.ttf);
+    font-family: 'Kalam';
+}
+@font-face {
+    src: url(fonts/Kalam-Light.ttf);
+    font-family: 'Kalam-Light';
+}
 
 @font-face {
     font-family: 'metropolisregular';
@@ -60,15 +91,6 @@ a
     color: inherit;
     display: inline-block
 }
-.carte_b
-{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 9em;
-    position: relative;
-    
-    
-}
 footer
 {
     display: flex;
@@ -88,14 +110,164 @@ article
 {   
     display: flex;
     flex-direction: column-reverse;
+    padding: 1.5em;
+
 }
 .block
 {
     padding: 2em;
+    display: flex;
+    width: 80%;
+    box-shadow: 0px 0px 15px rgb(221, 221, 221);
+    margin-bottom: 10em;
+    
+}
+.a1
+{
+    background-color: rgb(252,223,219);
+}
+.a2
+{
+    background-color: #FFF5FE;
+}
+.a3
+{
+    background-color: #F9F9F9;
+}
+.sm1
+{
+    font-size: small;
+}
+.carte
+{
+    display: flex;
+    justify-content: center;
+
+}
+i
+{
+    display: flex;
+    font-size: 8em;
+    background: linear-gradient(to right, rgb(241,84,96) 0%,rgb(247,143,106) 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    align-self: center;
+    padding-right: 10px;
+}
+.logo
+{
+    display: flex;
+    justify-content: center;
+}
+h2
+{
+    font-size: 3em;
+    justify-content: center;
+    display: flex;
+}
+.h2menu1
+{
+    
+    font-family: 'Devonshire';
+    color: rgb(60,18,24);   
+}
+.h2menu2
+{
+    font-family: 'CroissantOne';
+    background: linear-gradient(to right, rgb(216,133,46) 0%,rgb(144,91,253) 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    padding-top: 1em;
+    font-size: 4em;
+}
+.h2menu3
+{
+    font-family: 'DancingScript';
+    background: linear-gradient(135deg, rgb(9,51,223) 0%,rgb(47,154,250) 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    font-size: 6em;
+}
+.h2menu4
+{
+    font-family: 'KaushanScript';
+    background: linear-gradient(135deg, rgb(62,147,57) 0%,rgb(191,254,127) 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    font-size: 6em;
 }
 
 
+h3
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    
 
+}
+.h3menu1
+{
+    font-family: 'Kalam';
+    color: rgb(60,18,24);
+}
+.h3menu2{
+    font-family: 'Gelasio-SemiBold'
+}
+.hex1
+{
+    color: #C67412;
+}
+.hex2
+{
+    color: #A56799;
+}
+.hex3
+{
+    color: #6E4CCC;
+}
+.h3menu3{
+    font-family: 'Kalam-Light';
+}
+span
+{
+    display: flex;
+    float: right;
+}
+.prix1
+{
+     font-family: 'Kalam';
+}
+.prix3
+{
+    font-family: 'Kalam';
+    font-size: 1.2em;
+}
+.section
+{
+    margin-bottom: 6em;
+}
+ul
+{
+    line-height: 2em;
+}
+.ul1{
+    font-family: 'Kalam-Light';
+    color: rgb(60,18,24);
+    font-size: 2em;
+
+}
+.ul2{
+    font-family: 'Gelasio';
+    font-size: 1.5em;
+    padding: 0px 5em;
+}
+.ul3{
+    font-family: 'Kalam-Light';
+    font-size: 1.5em;
+    padding: 0em 6em;
+}
 /* animation */
 
 .wiggle:hover
@@ -110,3 +282,18 @@ article
     6%{transform: rotate(0deg)}
     100%{transform: rotate(0deg)}
 }
+.soulignement{
+    width: 25%;
+    background-color: rgb(87, 156, 135);
+    border-radius: 5px;
+    position: absolute;
+    height: 10%;
+    margin-top: 40px;
+    transform-origin: 0% 50%;
+    transform: scale(0);
+}
+h3:hover .soulignement{
+
+        background-color: rgb(253, 203, 70);
+        transform: scale(1);
+        transition: transform 500ms cubic-bezier(.42,.97,.8,1), background-color 3s;

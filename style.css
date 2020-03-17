@@ -5,6 +5,17 @@
 	font-family: 'Devonshire';
 }
 @font-face {
+	src: url(fonts/Gelasio-Regular.ttf);
+	font-family: 'Gelasio';
+}@font-face {
+	src: url(fonts/Gelasio-SemiBold.ttf);
+	font-family: 'Gelasio-SemiBold';
+}
+@font-face {
+	src: url(fonts/KaushanScript-Regular.ttf);
+	font-family: 'KaushanScript';
+}
+@font-face {
 	src: url(fonts/DancingScript-VariableFont_wght.ttf);
 	font-family: 'DancingScript';
 }
@@ -82,9 +93,32 @@ a
 	display: inline-block
 	
 }
+article
+{	
+	display: flex;
+	flex-direction: column-reverse;
+	width: 40%;;
+	margin-bottom: 6em;
+}
+footer
+{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	font-family: 'metropolisregular';
+	font-size: 3vw;
+	color: rgb(253, 203, 70);
+	background-color: rgb(87, 156, 135);
+	padding: 15px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
 #menu
 {
 	display: flex;
+	font-size: 1.5em;
 	align-content:  stretch;
 	text-align: center;
 	justify-content: space-around;
@@ -93,8 +127,8 @@ a
 .carte{
 	overflow: hidden;
 	box-shadow: 0px 0px 15px rgb(221, 221, 221);
-	width:500px;
-	height:707.6px;
+	width: 40%;
+	padding: 17% 0%;
 	margin: 2em;
 	margin-bottom: 10em; 
 	position: relative;
@@ -105,7 +139,6 @@ a
 	transform: scale(1);
 	transition: transform 400ms, opacity 400ms 150ms;
 	margin: auto;
-	font-size: 150%;
 	line-height: 50px;
 }
 .zoom:hover{
@@ -133,7 +166,7 @@ a
 .menu1 h2
 {
 	font-family: 'Kalam-Light';
-	font-size: 2.5em;
+	font-size: 2em;
 }
 .menu2
 {
@@ -144,6 +177,7 @@ a
 {
 	color: rgb(199,119,18);
 	font-size: 2em;
+	font-family: 'Gelasio-SemiBold'
 }
 .menu2 p
 {
@@ -277,13 +311,7 @@ footer
 	100%{transform: translateY(0%);}
 }
 
-article
-{	
-	display: flex;
-	flex-direction: column-reverse;
-	width: 40%;;
-	margin-bottom: 6em;
-}
+
 .block
 {
 	padding: 2em;

@@ -208,13 +208,17 @@ h3
     
 
 }
+img
+{
+    width: 18vw;
+    height: 1vw;
+    margin: 1.2vw auto;
+}
 .h3menu1
 {
     font-family: 'Kalam';
     color: rgb(60,18,24);
-}
-.h3menu2{
-    font-family: 'Gelasio-SemiBold'
+    
 }
 .hex1
 {
@@ -294,7 +298,7 @@ p
     transform-origin: 0% 50%;
     transform: scale(0);
 }
-h3:hover.soulignement{
+h3:hover .soulignement{
 
         background-color: rgb(253, 203, 70);
         transform: scale(1);

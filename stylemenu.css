@@ -138,6 +138,10 @@ article
 {
     font-size: 1vw;
 }
+.sm1
+{
+    padding: 0vw 4vw;
+}
 .carte
 {
     display: flex;
@@ -249,7 +253,6 @@ span
 p
 {
     line-height: 2em;
-    list-style-type: none;
 }
 .ul1{
     font-family: 'Kalam-Light';

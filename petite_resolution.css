@@ -9,7 +9,6 @@
 	}
 	.fa, .fab, .fad, .fal, .far, .fas
 {
-    font-size: 0.3em;
 	display: inline-block;
 	margin-right: 0.2em;
 	margin-left: 0.2em;
@@ -23,20 +22,12 @@ header
   	width: 100%;
 	
 }
-.carte
-{
-	width: 400px;
-	height: 566.1px;
+.carte{
+	font-size: smaller;
 }
+
 .pro
 {
 	font-size: 6vw;
 	min-width: 380px;
-}
-	
-
-}
-@media screen and (max-width: 768px)
-{
-
 }

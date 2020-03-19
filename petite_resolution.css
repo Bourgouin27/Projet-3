@@ -2,35 +2,23 @@
 {
 	#menu
 	{
-		display: flex;
 		flex-direction: column;
 		align-items: center;
 		width: 100%;
-	}
-	.fa, .fab, .fad, .fal, .far, .fas
-	{
-		display: inline-block;
-		margin-right: 0.2em;
-		margin-left: 0.2em;
-		color: 	rgb(253, 203, 70);
-	
 	}
 
 	header
 	{
   		font-size: 1.5vw;
-  		width: 100%;
 	
 	}
 	.carte
 	{
 	font-size: smaller;
 	}
-
-	.pro
+.pro
 	{
 	font-size: 6vw;
 	min-width: 380px;
 	}
-
 }
